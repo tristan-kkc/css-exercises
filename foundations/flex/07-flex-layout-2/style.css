@@ -30,6 +30,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex: 0 0 auto;
 }
 
 .card {
@@ -55,4 +56,17 @@ ul {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 32px;
+  margin-right: 128px;
+}
+
+.card {
+  flex: 1 1 220px;
+  padding: 16px;
 }
